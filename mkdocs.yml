@@ -1,5 +1,5 @@
 site_name: Aniket Tekawade
-site_url: https://anikettekawade.github.io
+site_url: https://aniketkt.github.io
 site_description: Personal website of Aniket Tekawade
 site_author: Aniket Tekawade
 
@@ -33,9 +33,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search

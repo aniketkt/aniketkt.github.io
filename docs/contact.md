@@ -3,4 +3,4 @@
 You can reach me via:
 
 - **LinkedIn:** [linkedin.com/in/anikettekawade](https://linkedin.com/in/anikettekawade)
-- **GitHub:** [github.com/anikettekawade](https://github.com/aniketkt)
+- **GitHub:** [github.com/aniketkt](https://github.com/aniketkt)
