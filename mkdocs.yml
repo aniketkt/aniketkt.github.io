@@ -1,0 +1,42 @@
+site_name: Aniket Tekawade
+site_url: https://anikettekawade.github.io
+site_description: Personal website of Aniket Tekawade
+site_author: Aniket Tekawade
+
+nav:
+  - Home: index.md
+  - Essays: essays.md
+  - Scratchpad: scratchpad.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - tags
