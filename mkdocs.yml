@@ -1,27 +1,31 @@
 site_name: Aniket Tekawade
+docs_dir: docs
 site_url: https://aniketkt.github.io
 site_description: Personal website of Aniket Tekawade
 site_author: Aniket Tekawade
 
 nav:
   - Home: index.md
-  - Essays: essays.md
-  - Scratchpad: scratchpad.md
-  - Contact: contact.md
+  - Essays: essays/essays.md
+  - Footprint: footprint.md
+
 
 theme:
   name: material
   features:
-    - navigation.tabs
+    - navigation.top        # Top nav bar
     - navigation.instant
+    - navigation.tabs       # Enables tab-style top navigation
     - content.code.copy
   palette:
     - scheme: default
-      primary: teal
+      primary: grey
       accent: amber
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter
+    code: JetBrains Mono
+  favicon: null
+  logo: null
 
 markdown_extensions:
   - toc:
@@ -37,3 +41,12 @@ markdown_extensions:
 plugins:
   - search
   - tags
+
+extra_css:
+  - styles/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+
+# extra_javascript:
+#   - https://kit.fontawesome.com/a076d05399.js
+
+

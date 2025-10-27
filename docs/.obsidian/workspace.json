@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "e7c2ea36dd79773e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb5be721bb03e232",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0494405e0c7530ba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "91040f9e5bbdb265",
+    "type": "split",
+    "children": [
+      {
+        "id": "537c303ea8fcc6dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dd9624267b6ebaf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6f2b0320f1d7bf08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fae9e80d5a057ae3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bfd35461ad41e301",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4e4ba1f94c77c42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ffecc3862686519",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "test-admonition.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for test-admonition.md"
+            }
+          },
+          {
+            "id": "f190e67d1a505c18",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "test-admonition.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from test-admonition.md"
+            }
+          },
+          {
+            "id": "8ce2c6808b5f0e08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "47a46540da05b834",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test-admonition.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of test-admonition.md"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0494405e0c7530ba",
+  "lastOpenFiles": [
+    "footprint.md",
+    "connect.md",
+    "essays/essays.md",
+    "index.md",
+    "_index.md",
+    "styles/extra.css",
+    "styles",
+    "essays/temperature-control.md",
+    "essays/market-ripples.md",
+    "scratchpad.md",
+    "Untitled.md",
+    "scratchpad",
+    "essays.md",
+    "essays",
+    "site",
+    "Untitled.base",
+    "test-admonition.md.md"
+  ]
+}

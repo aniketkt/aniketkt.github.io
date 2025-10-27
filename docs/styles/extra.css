@@ -1,0 +1,259 @@
+/* ====== Layout refinement ====== */
+.md-container {
+  display: flex;
+  justify-content: center;
+}
+
+.md-main__inner {
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+/* Centered, open reading layout */
+.md-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: none; /* removes the white inset */
+  color: #2E2E2E;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* ====== Typography ====== */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #2E2E2E;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+.md-typeset h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #FFB300;
+  padding-bottom: 0.3em;
+}
+
+.md-typeset p {
+  text-align: justify;
+  margin-bottom: 1.4em;
+}
+
+/* ====== Links ====== */
+.md-typeset a {
+  color: #007A99;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0, 122, 153, 0.4);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: #FFB300;
+  border-bottom: 1px solid #FFB300;
+}
+
+/* ====== Header (nav bar) ====== */
+.md-header {
+  background-color: #2E2E2E !important;
+  color: #FAFAFA !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.md-header__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #FAFAFA !important;
+}
+
+.md-tabs {
+  background-color: #2E2E2E !important;
+}
+
+.md-tabs__link {
+  color: #FAFAFA !important;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: #FFB300 !important;
+}
+
+/* ====== Code blocks ====== */
+.md-typeset code {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+  font-size: 0.9em;
+}
+
+/* ====== Remove the footer ====== */
+.md-footer, .md-footer-meta {
+  display: none !important;
+}
+
+/* ====== Force-hide sidebar ====== */
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* ====== Hero section ====== */
+.hero {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding: 2rem 1rem;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #2E2E2E;
+  margin-bottom: 0.5rem;
+}
+
+.hero .name {
+  color: #FFB300;
+}
+
+.hero .tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #FFB300;
+  margin: 2rem auto 0 auto;
+  border-radius: 2px;
+}
+
+/* ====== Hero entrance animation ====== */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  animation: fadeUp 1s ease-out both;
+}
+
+/* ====== Ensure hero tagline is centered ====== */
+.hero {
+  text-align: center;
+}
+
+.hero .tagline {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+/* ====== About section ====== */
+.about {
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  color: #2E2E2E;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1.05em;
+  text-align: justify;
+  margin-bottom: 1.2em;
+}
+
+/* ====== Welcome section refinement (simplified, centered, no excess lines) ====== */
+.welcome {
+  max-width: 700px;
+  margin: 3rem auto 4rem auto;
+  text-align: center;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1.05em;
+  font-family: 'Inter', sans-serif;
+}
+
+.welcome p {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+/* Remove extra lines from before/after */
+.welcome::before,
+.welcome::after {
+  content: none !important;
+}
+
+/* ====== Force welcome section centering ====== */
+.md-content .welcome,
+.md-content .welcome p {
+  text-align: center !important;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ====== Icon styling for Footprint page ====== */
+.connect-links a {
+  font-size: 2rem;
+  color: #007A99;
+  transition: color 0.2s ease;
+}
+
+.connect-links a:hover {
+  color: #FFB300;
+}
+
+.connect-links i {
+  margin: 0 1rem;
+}
+
+.connect-links a { font-size: 2.2rem; }
+
+.connect-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.connect-links a {
+  font-size: 2.2rem;
+  color: #007A99;
+  margin: 0 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.connect-links a:hover {
+  color: #FFB300;
+  transform: translateY(-3px);
+}
