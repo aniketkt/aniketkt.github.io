@@ -5,16 +5,12 @@
   </p>
 </div>
 
----
-
 <div class="welcome">
   <p>
     Welcome to my corner of the internet.<br>
     Here, I share essays, ideas, and reflections — from the deeply technical to the delightfully human.
   </p>
 </div>
-
----
 
 <div class="about">
   <h2>About Me</h2>

@@ -102,9 +102,9 @@
 /* ====== Hero section ====== */
 .hero {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .hero h1 {
@@ -213,6 +213,16 @@
   content: none !important;
 }
 
+.welcome {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 0.6s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* ====== Force welcome section centering ====== */
 .md-content .welcome,
 .md-content .welcome p {
@@ -256,4 +266,9 @@
 .connect-links a:hover {
   color: #FFB300;
   transform: translateY(-3px);
+}
+
+
+.md-content > * {
+  margin-block: 4rem;
 }
