@@ -93,10 +93,12 @@
   display: none !important;
 }
 
-/* ====== Force-hide sidebar ====== */
-.md-sidebar--primary,
-.md-sidebar--secondary {
-  display: none !important;
+/* Hide sidebars only on desktop, keep them on mobile */
+@media screen and (min-width: 1024px) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none !important;
+  }
 }
 
 /* ====== Hero section ====== */
