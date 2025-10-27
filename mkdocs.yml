@@ -15,6 +15,7 @@ theme:
   features:
     - navigation.top        # Top nav bar
     - navigation.instant
+    - navigation.sections
     - navigation.tabs       # Enables tab-style top navigation
     - content.code.copy
   palette:
